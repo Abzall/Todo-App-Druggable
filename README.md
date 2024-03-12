@@ -21,9 +21,6 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ## Зависимости
 
-- react: ^17.0.2
-- react-dom: ^17.0.2
-- react-scripts: 4.0.3
 - uuid: ^8.3.2
 - randomcolor: ^0.6.2
 - react-draggable: ^4.4.3

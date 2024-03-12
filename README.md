@@ -2,7 +2,28 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# React Todo Приложение
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Это приложение для создания заметок (todo) на React. Заметки можно перемещать и удалять. Каждая заметка имеет уникальный цвет, который генерируется случайным образом.
+Каждая созданная заметка храниться в localStorage. 
+
+## Установка
+
+1. Клонируйте репозиторий
+2. Установите зависимости с помощью `npm install`
+3. Запустите приложение с помощью `npm run dev`
+
+## Использование
+
+1. Введите текст заметки в поле ввода и нажмите Enter или кнопку "Enter" для создания заметки.
+2. Чтобы удалить заметку, нажмите кнопку "X" на заметке.
+3. Чтобы переместить заметку, перетащите ее в нужное место.
+
+## Зависимости
+
+- react: ^17.0.2
+- react-dom: ^17.0.2
+- react-scripts: 4.0.3
+- uuid: ^8.3.2
+- randomcolor: ^0.6.2
+- react-draggable: ^4.4.3
